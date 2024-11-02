@@ -99,7 +99,7 @@ def send_message():
             ai_response = response.text.strip()
 
             # Check if the AI response is not "no response"
-            if ai_response.lower() != "no response":
+            if ai_response != "No response":
                 # Save the response as a message sent by John
                 ai_message = {
                     'user': 'John',  # Set as John
