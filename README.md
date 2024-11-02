@@ -54,6 +54,7 @@ Login credential for Imposter Account
   <img src="templates/Untitled.png" alt="Screenshot 2" width="250"/>   
 </p>
 ### Project Demo
+
 # Video
 https://drive.google.com/file/d/1sXDrav1vS8aASgmumm5b2j0jjd-io99i/view?usp=sharing
 *Explain what the video demonstrates*
