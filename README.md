@@ -1,28 +1,28 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Hinder] 🎯
+# Hinder 🎯
 
 
 ## Basic Details
-### Team Name: [Biccentinals]
+### Team Name: Biccentinals
 
 
 ### Team Members
-- Team Lead: [Adarsh Saju] - [College]
-- Member 2: [N N Balaji] - [College]
-- Member 3: [Gowtham R Nair] - [College]
+- Team Lead: Adarsh Saju - College
+- Member 2: N N Balji - College
+- Member 3: Gowtham R Nair - College
 
 ### Project Description
-[Hinder is a tongue-in-cheek messaging app designed to sabotage smooth conversations, particularly on dating platforms, by crafting awkward or odd responses that mimic the user's style. The app uses advanced AI to inject random, bizarre, and out-of-context responses into chat threads, introducing a layer of confusion and hilarity. Additionally, it features an "imposter" mode, allowing a third party to temporarily impersonate one of the chat participants, blending seamlessly into the conversation without anyone catching on. Whether you’re aiming for mischief or merely experimenting with unconventional social interactions, Hinder ensures no conversation ever goes as planned!]
+Hinder is a tongue-in-cheek messaging app designed to sabotage smooth conversations, particularly on dating platforms, by crafting awkward or odd responses that mimic the user's style. The app uses advanced AI to inject random, bizarre, and out-of-context responses into chat threads, introducing a layer of confusion and hilarity. Additionally, it features an "imposter" mode, allowing a third party to temporarily impersonate one of the chat participants, blending seamlessly into the conversation without anyone catching on. Whether you’re aiming for mischief or merely experimenting with unconventional social interactions, Hinder ensures no conversation ever goes as planned!
 
 ### The Problem (that doesn't exist)
-[Dating apps make it too easy for relationships to form and flourish. *Hinder* steps in to change that by sabotaging conversations with awkward or weird messages that can lead to misunderstandings and, ultimately, breakups. It’s designed for those who want to disrupt budding relationships or add chaos to interactions, making it harder for any real connection to survive.]
+Dating apps make it too easy for relationships to form and flourish. *Hinder* steps in to change that by sabotaging conversations with awkward or weird messages that can lead to misunderstandings and, ultimately, breakups. It’s designed for those who want to disrupt budding relationships or add chaos to interactions, making it harder for any real connection to survive.
 
 ### The Solution (that nobody asked for)
-[ 
+ 
 *Hinder* is like your mischievous sidekick for wrecking romance! By jumping into your chats and sending random, cringeworthy messages, it creates moments that are hilariously awkward—and almost impossible to recover from. Whether it's a bizarre confession, an out-of-place joke, or a slightly too intense question, *Hinder* keeps the conversation spiraling out of control.
 
-With the "imposter" feature, *Hinder* lets a friend join the chaos by secretly impersonating one of the chat participants, throwing everyone off balance. It’s sabotage as a service—because not every match is meant to last!]
+With the "imposter" feature, *Hinder* lets a friend join the chaos by secretly impersonating one of the chat participants, throwing everyone off balance. It’s sabotage as a service—because not every match is meant to last!
 
 ## Technical Details
 ### Technologies/Components Used
@@ -31,11 +31,6 @@ For Software:
 - [Flask]
 - [genai]
 - [Google AI Studio]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -47,7 +42,13 @@ For Software:
 
 ### Project Documentation
 For Software:
-
+Login credentials for the user Profiles
+- Username : Jhon
+- Password : password123
+- Username : Jane
+- Password : mypassword
+Login credential for Imposter Account
+- Imposter : imposterpassword
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
@@ -57,29 +58,6 @@ For Software:
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
