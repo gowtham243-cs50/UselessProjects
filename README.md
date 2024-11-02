@@ -47,6 +47,7 @@ Login credentials for the user Profiles
 - Password : password123
 - Username : Jane
 - Password : mypassword
+  
 Login credential for Imposter Account
 - Imposter : imposterpassword
 # Screenshots (Add at least 3)
