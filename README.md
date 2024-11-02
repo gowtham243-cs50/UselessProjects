@@ -34,11 +34,8 @@ For Software:
 
 ### Implementation
 For Software:
-# Installation
-[]
-
 # Run
-[commands]
+Website link(doesnt work):-https://hinder-a12e80597ccd.herokuapp.com/
 
 ### Project Documentation
 For Software:
@@ -65,9 +62,9 @@ Login credential for Imposter Account
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Adarsh Saju : Frotend and Backend
+- N N Balaji : Backend
+- Gowtham R Nair : AI
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
