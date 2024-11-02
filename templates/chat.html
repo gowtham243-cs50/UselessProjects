@@ -418,8 +418,13 @@
         <span>Hinder</span>
         <a href="{{ url_for('logout') }}">Logout</a>
     </div>
+    
     <div id="chatbox">
-        <div class="partner-name-bar">Chat with {{ session['username'] }}</div>
+        <!-- Display the name of the chat partner based on the logged-in user -->
+        <div class="partner-name-bar">
+            Chat with {% if session['username'] == 'John' %}Jane{% elif session['username'] == 'Jane' %}John{% else %}Everyone{% endif %}
+        </div>
+        
         <div id="messages">
             {% for msg in chat_history %}
                 <div class="{% if msg.user == session['username'] %}my-message{% else %}their-message{% endif %}">
@@ -427,6 +432,7 @@
                 </div>
             {% endfor %}
         </div>
+        
         <div id="input-area">
             <input type="text" id="input-message" placeholder="Type your message..." required>
             <button id="send-button">Send</button>
@@ -446,47 +452,34 @@
             fetch('/get_messages')
                 .then(response => response.json())
                 .then(data => {
-                    // Clear the current messages and display the latest
                     const messagesContainer = document.getElementById('messages');
-                    const currentMessages = Array.from(messagesContainer.children).map(msg => msg.textContent);
+                    messagesContainer.innerHTML = ''; // Clear current messages
 
-                    // Only append new messages
                     data.forEach(msg => {
-                        if (!currentMessages.includes(msg.message)) {
-                            appendMessage(msg.user === "{{ session['username'] }}" ? 'my-message' : 'their-message', msg.message);
-                        }
+                        const messageElement = document.createElement('div');
+                        messageElement.classList.add(
+                            msg.user === "{{ session['username'] }}" ? 'my-message' : 'their-message'
+                        );
+                        messageElement.textContent = msg.message;
+                        messagesContainer.appendChild(messageElement);
                     });
                 });
         }
 
         function sendMessage() {
-            const messageInput = document.getElementById('input-message');
-            const message = messageInput.value.trim();
-
-            if (!message) return;
-
-            fetch('/send_message', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ message: message })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    messageInput.value = ''; // Clear the input after sending
-                }
-            });
-        }
-
-        function appendMessage(className, message) {
-            const messagesContainer = document.getElementById('messages');
-            const messageElement = document.createElement('div');
-            messageElement.className = className;
-            messageElement.textContent = message;
-            messagesContainer.appendChild(messageElement);
-            messagesContainer.scrollTop = messagesContainer.scrollHeight; // Auto-scroll to the latest message
+            const input = document.getElementById('input-message');
+            const message = input.value.trim();
+            
+            if (message) {
+                fetch('/send_message', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message })
+                }).then(() => {
+                    input.value = ''; // Clear the input
+                    fetchMessages(); // Refresh messages after sending
+                });
+            }
         }
     </script>
 </body>
