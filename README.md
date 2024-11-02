@@ -4,13 +4,13 @@
 
 
 ## Basic Details
-### Team Name: Biccentinals
+### Team Name: Bicentenials
 
 
 ### Team Members
-- Team Lead: Adarsh Saju - College
-- Member 2: N N Balji - College
-- Member 3: Gowtham R Nair - College
+- Team Lead: Adarsh Saju - College of Engineering, Trivandrum
+- Member 2: N N Balji - College of Engineering, Trivandrum
+- Member 3: Gowtham R Nair - College of Engineering, Trivandrum
 
 ### Project Description
 Hinder is a tongue-in-cheek messaging app designed to sabotage smooth conversations, particularly on dating platforms, by crafting awkward or odd responses that mimic the user's style. The app uses advanced AI to inject random, bizarre, and out-of-context responses into chat threads, introducing a layer of confusion and hilarity. Additionally, it features an "imposter" mode, allowing a third party to temporarily impersonate one of the chat participants, blending seamlessly into the conversation without anyone catching on. Whether you’re aiming for mischief or merely experimenting with unconventional social interactions, Hinder ensures no conversation ever goes as planned!
