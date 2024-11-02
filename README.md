@@ -4,7 +4,7 @@
 
 
 ## Basic Details
-### Team Name: Bicentenials
+### Team Name: Bicentennial
 
 
 ### Team Members
