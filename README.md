@@ -51,15 +51,11 @@ Login credentials for the user Profiles
 Login credential for Imposter Account
 - Imposter : imposterpassword
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+<p align="center">
+  <img src="templates/John.jpg" alt="Screenshot 1" width="250"/>
+  <img src="templates/Screenshot 2024-11-02 223926.png" alt="Screenshot 2" width="250"/>
+  <img src="templates/Untitled.png" alt="Screenshot 2" width="250"/>   
+</p>
 ### Project Demo
 # Video
 [Add your demo video link here]
