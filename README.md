@@ -27,10 +27,10 @@ With the "imposter" feature, *Hinder* lets a friend join the chaos by secretly i
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Python,javaScript,HTML,CSS]
-- [Flask]
-- [genai]
-- [Google AI Studio]
+- Python,javaScript,HTML,CSS
+- Flask
+- genai
+- Google AI Studio
 
 ### Implementation
 For Software:
@@ -43,7 +43,7 @@ For Software:
 ### Project Documentation
 For Software:
 Login credentials for the user Profiles
-- Username : Jhon
+- Username : John
 - Password : password123
 - Username : Jane
 - Password : mypassword
