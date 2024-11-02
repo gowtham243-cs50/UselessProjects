@@ -57,7 +57,7 @@ Login credential for Imposter Account
 
 # Video
 https://drive.google.com/file/d/1sXDrav1vS8aASgmumm5b2j0jjd-io99i/view?usp=sharing
-*Explain what the video demonstrates*
+
 Video shows a basic use case of our solution.
 # Additional Demos
 [Add any extra demo materials/links]
