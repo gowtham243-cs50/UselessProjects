@@ -9,7 +9,7 @@
 
 ### Team Members
 - Team Lead: Adarsh Saju - College of Engineering, Trivandrum
-- Member 2: N N Balji - College of Engineering, Trivandrum
+- Member 2: N N Balaji - College of Engineering, Trivandrum
 - Member 3: Gowtham R Nair - College of Engineering, Trivandrum
 
 ### Project Description
